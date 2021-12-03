@@ -1,0 +1,476 @@
+::ng-deep .mat-form-field-underline {
+    display: none;
+  }
+  ::ng-deep .mat-form-field-prefix {
+    bottom: 10px;
+  }
+  ::ng-deep .mat-form-field-infix {
+    bottom: 17px;
+  }
+  
+  .btn {
+    flex: 3%;
+  }
+  .button-text {
+    font-size: 17px;
+    padding-right: 40px;
+  }
+  .class {
+    color: blue;
+    padding: 50px;
+  }
+  .color3 {
+    border: 5px solid #ffefe7;
+    background-color: #ffefe7;
+  }
+  .color1 {
+    border: 5px solid #ebfdef;
+    background-color: #ebfdef;
+  }
+  .color2 {
+    border: 5px solid #e8f0fb;
+    background-color: #e8f0fb;
+  }
+  .container2 {
+    height: 1500px;
+    background-color: white;
+    padding: 20px 0 50px 400px;
+  }
+  .container3 {
+    width: 100%;
+  }
+  .main {
+  }
+  .data1 {
+    color: white;
+    font-size: 32px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: black;
+  }
+  .data2 {
+    color: white;
+    font-size: 32px;
+    padding: 15px 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: black;
+  }
+  .data3 {
+    color: white;
+    font-size: 32px;
+    padding: 15px 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: black;
+  }
+  .detail {
+    font-size: 20px;
+    color: #7e7b7b;
+    font-family: "Gilroy";
+  }
+  .detail strong {
+    font-family: "Gilroy-Bold";
+  }
+  .detail2 {
+    font-size: 20px;
+    font-family: "Gilroy";
+  }
+  .detail2 strong {
+    font-family: "Gilroy-Bold";
+  }
+  .details {
+    font-family: "Gilroy";
+    font-size: 17px;
+    color: #cfcccc;
+  }
+  .dot {
+    font-weight: 900;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .example-form {
+    margin-top: 10px;
+    /* border: transparent;
+    border-radius: 50px;
+    height: 40px;
+    background-color: lightgray; */
+  }
+  .example-container {
+    margin: 50px;
+    background-color: #f5f5f5;
+    width: 2500px;
+    height: 1400px;
+    border-radius: 50px;
+  }
+  .field {
+    margin-right: 20px;
+    background-color: #f5f5f5;
+    border-radius: 50px;
+    border: none;
+    width: 400px;
+    height: 40px;
+  }
+  .filters {
+    font-weight: 900;
+    font-size: 22px;
+    padding-left: 0px;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .flex .iconify {
+    margin: 5px;
+  }
+  .grid {
+    bottom: 30px;
+  }
+  h2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .history {
+    position: absolute;
+    bottom: 120px;
+    right: 20px;
+    width: 55%;
+    padding: 5px 30px 30px 30px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+  }
+  .hello {
+    margin: 10px;
+    font-size: 24px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 50px;
+  }
+  .item .iconify {
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 10px;
+  }
+  .item div span {
+    font-family: "Gilroy";
+    font-size: x-large;
+    margin: 20px;
+  }
+  .light {
+    opacity: 50%;
+  }
+  .text {
+    padding: 25px;
+  }
+  mat-toolbar .wallet {
+    font-family: "Gilroy-Bold";
+    padding: 24px 0px 0 23px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .mat-label {
+    padding-left: 10px;
+    font-family: Gilroy;
+    font-weight: 20px;
+    font-size: 17px;
+    color: rgb(151, 146, 146);
+  }
+  .mat-toolbar {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-block-start: 60px;
+    padding-block-end: 70px;
+    background-color: white;
+    border-bottom: 3px solid #f5f5f5;
+  }
+  .menu {
+    font-size: 27px;
+  }
+  .nav-text {
+    padding-left: 20px;
+  }
+  .price {
+    font-size: 35px;
+  }
+  .notif {
+    padding: 10px;
+    background-color: #555;
+    border-radius: 50px;
+    color: aliceblue;
+  }
+  .right {
+    position: absolute;
+    right: 70px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .search {
+    padding-left: 15px;
+    font-size: 27px;
+  }
+  .side {
+    padding: 50px;
+    box-shadow: none;
+    background-color: rgba(50, 50, 50, 0.1);
+    width: 350px;
+  }
+  .side-items ul {
+    padding-top: 150px;
+    font-family: "Gilroy";
+    color: #b3b1b1;
+    list-style: none;
+    font-size: 32px;
+  }
+  .side-nav {
+    color: black;
+    font-size: 37px;
+  }
+  
+  .side-items {
+    opacity: 100%;
+    color: black;
+  }
+  .side-items ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 0px 15px 20px;
+    font-size: 19px;
+    font-weight: 900;
+  }
+  .test {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px 20px 20px 20px;
+    width: 80%;
+    height: 70%;
+    border-radius: 40px;
+  }
+  .three {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .two {
+    font-size: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .title {
+    padding-left: 40px;
+    flex: 70%;
+  }
+  .toggle {
+    width: 150px;
+    justify-content: right;
+    font-weight: bold;
+    margin-right: 100px;
+    box-shadow: none;
+    border: 3px solid #f5f5f5;
+    border-radius: 10px;
+  }
+  .transaction {
+    color: black;
+    font-size: 26px;
+    border: 3.5px solid black;
+    border-radius: 50px;
+  }
+  .wallet2 {
+    font-size: 32px;
+    padding: 45px;
+    padding-left: 50px;
+    font-weight: bold;
+  }
+  /* table css*/
+  
+  .tab {
+    font-family: "Gilroy";
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+  }
+  .table {
+    padding: 20px 20px 20px 20px;
+    background-color: black;
+    width: 500px;
+    border-radius: 50px;
+  }
+  
+  .tb-menu {
+    color: white;
+    font-size: 30px;
+  }
+  .demo-table {
+    max-width: 600px;
+    border-radius: 50px;
+    background-color: black;
+    padding-bottom: 40px;
+  }
+  .mat-header-row {
+  }
+  .table h1 {
+    font-family: "Gilroy";
+    font-weight: bold;
+    padding: 10px 0 10px 30px;
+  }
+  .mat-header-cell {
+    width: 100%;
+    opacity: 80%;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 40px;
+  }
+  .mat-row {
+    border-radius: 50px;
+  }
+  .mat-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    max-width: max-content;
+  }
+  
+  .mat-row .mat-cell {
+    font-family: "Gilroy";
+    padding: 15px 50px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    color: #b3b1b1;
+  }
+  .mat-row:hover {
+    background-color: #3d3c3c;
+    border-radius: 50px;
+  }
+  .mat-row:hover .mat-cell {
+    color: white;
+  }
+  
+  .demo-row-is-clicked {
+    font-weight: bold;
+    color: white;
+  }
+  /* responsive*/
+  @media screen and (max-width: 1920px) {
+    .container2 {
+      height: 800px;
+      padding: 20px 0 20px 320px;
+    }
+    .example-container {
+      width: auto;
+    }
+    .data1 {
+      font-size: 25px;
+      padding: 12px 16px;
+      margin-top: -10px;
+      border-radius: 15px;
+    }
+    .data2 {
+      font-size: 25px;
+      padding: 12px;
+      border-radius: 15px;
+    }
+    .data3 {
+      font-size: 25px;
+      padding: 12px;
+      border-radius: 15px;
+    }
+    .detail,
+    .detail2 {
+      font-size: 15px;
+      padding-top: 5px;
+    }
+    .details {
+      font-size: 13px;
+    }
+    .item .iconify {
+      border-radius: 50px;
+      font-size: 17px;
+      padding: 10px;
+    }
+    .item {
+      font-size: 15px;
+      margin-left: -25px;
+    }
+    .history {
+      position: absolute;
+      bottom: 30px;
+      right: 20px;
+      width: 50%;
+      padding: 5px 10px 30px 30px;
+    }
+    .history h3 {
+      font-family: "Gilroy";
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .mat-table {
+      padding-right: -20px;
+    }
+    .mat-header-cell {
+      font-size: 18px;
+      margin-left: -5px;
+    }
+    .mat-row {
+      margin: -10px 0;
+    }
+    .mat-row .mat-cell {
+      font-family: "Gilroy";
+      padding: 0px 20px 15px 20px;
+      font-weight: bold;
+      font-size: 15px;
+      cursor: pointer;
+      color: #b3b1b1;
+    }
+    .nav-text {
+      font-size: 15px;
+    }
+    .price {
+      font-size: 30px;
+    }
+    .side-items ul {
+      padding-top: 90px;
+      font-size: 10px;
+    }
+    .side-nav {
+      font-size: 27px;
+    }
+    .table {
+      max-width: 800px;
+      border-radius: 40px;
+    }
+    .tab {
+      font-size: 20px;
+    }
+    .test {
+      height: fit-content;
+      border-radius: 30px;
+      width: 350px;
+      margin-left: 5px;
+    }
+    .text {
+      padding: 22px 10px;
+      font-size: 17px !important;
+    }
+    .toggle {
+      margin-right: 0px;
+      flex: 5%;
+    }
+    .transaction {
+      font-size: 15px;
+    }
+    .two {
+      font-size: 23px;
+    }
+  }
+  

@@ -1,0 +1,187 @@
+<mat-drawer class="side" #drawerr mode="push" opened>
+    <div class="side-items">
+        <h1 class="wallet2">Wallet</h1>
+        <ul>
+            <li>
+                <span class="iconify side-nav" data-icon="clarity:dashboard-line"></span><span
+                    class="nav-text">Dashboard</span>
+            </li>
+            <li>
+                <span class="iconify side-nav" data-icon="ic:outline-account-balance-wallet"></span><span
+                    class="nav-text">My Wallets</span>
+            </li>
+            <li>
+                <span class="iconify side-nav" data-icon="clarity:coin-bag-line"></span><span
+                    class="nav-text">Transaction</span>
+            </li>
+            <li>
+                <span class="iconify side-nav" data-icon="bx:bx-dollar-circle"></span><span
+                    class="nav-text">Crypto</span>
+            </li>
+            <li>
+                <span class="iconify transaction" data-icon="gg:arrows-exchange"></span><span
+                    class="nav-text">Exchange</span>
+            </li>
+            <li>
+                <span class="iconify side-nav" data-icon="carbon:settings"></span><span class="nav-text">Setting</span>
+            </li>
+        </ul>
+        <div class="history">
+            <p class="two">
+                <span class="iconify" data-icon="zmdi:time-restore"></span>
+                <span class="iconify menu" data-icon="carbon:overflow-menu-vertical"></span>
+            </p>
+            <h3>History available</h3>
+            <span class="details">Check your weekly transaction reports</span>
+        </div>
+    </div>
+</mat-drawer>
+<mat-drawer-container class="example-container" hasBackdrop="false">
+    <mat-drawer-content class="main">
+        <mat-toolbar class="mat-toolbar">
+            <!-- <span class="wallet">Wallet</span> -->
+            <div class="right">
+                <form class="example-form">
+                    <mat-form-field class="field">
+                        <mat-label #this class="mat-label">Search</mat-label>
+                        <!-- <mat-icon class="search" matPrefix aria-hidden="false">search</mat-icon> -->
+                        <span class="iconify search" matPrefix data-icon="akar-icons:search"></span>
+                        <input class="inputsearch" matInput placeholder="" type="text" />
+                    </mat-form-field>
+                </form>
+                <span class="iconify hello" data-icon="codicon:bell"></span>
+                <span class="iconify hello" data-icon="bx:bx-message-detail"></span>
+                <span class="iconify hello" data-icon="ant-design:gift-outlined"></span>
+                <span class="iconify hello" data-icon="carbon:settings"></span>
+            </div>
+        </mat-toolbar>
+        <!-- <mat-drawer-container> -->
+        <div class="container2">
+            <h2>
+                <span class="title">Dashboard</span>
+                <span class="btn">
+                    <button mat-raised-button class="toggle" (click)="drawerr.toggle()">
+                        <span class="button-text">Filters</span>
+                        <span class="iconify filters" data-icon="lucide:settings-2"></span>
+                    </button>
+                </span>
+            </h2>
+            <mat-grid-list cols="3" rowHeight="2:1">
+                <mat-grid-tile class="grid">
+                    <div class="test color1">
+                        <p class="dot">
+                            <span class="iconify data1" data-icon="fa:bitcoin"></span>
+                            <span class="iconify menu" data-icon="carbon:overflow-menu-vertical"></span>
+                        </p>
+                        <span class="price">$1200</span>
+                        <span class="detail"><strong>45%</strong> This week</span>
+                    </div>
+                </mat-grid-tile>
+                <mat-grid-tile class="grid">
+                    <div class="test color2">
+                        <p class="dot">
+                            <span class="iconify data2" data-icon="cib:ethereum"></span>
+                            <span class="iconify menu" data-icon="carbon:overflow-menu-vertical"></span>
+                        </p>
+                        <span class="price">$232,40</span>
+                        <span class="detail2"><strong>35%</strong> This week</span>
+                    </div>
+                </mat-grid-tile>
+                <mat-grid-tile class="grid">
+                    <div class="test color3">
+                        <p class="dot">
+                            <span class="iconify data3" data-icon="simple-icons:binance"></span>
+                            <span class="iconify menu" data-icon="carbon:overflow-menu-vertical"></span>
+                        </p>
+                        <span class="price">600</span>
+                        <span class="detail2"><strong>21%</strong> This week</span>
+                    </div>
+                </mat-grid-tile>
+            </mat-grid-list>
+
+            <mat-grid-list cols="3" rowHeight="400px">
+                <mat-grid-tile [colspan]="2" [rowspan]="1">
+                    <div class="container3">
+                        <h2><span class="title">Recent Activities</span></h2>
+                        <mat-grid-list cols="5" rowHeight="300px">
+                            <mat-grid-tile class="item">
+                                <div class="flex">
+                                    <span>
+                                        <span class="iconify bold color1" data-icon="bi:arrow-up-left"></span>
+                                    </span>
+                                    <span>
+                                        <span class="iconify bold color2" data-icon="bi:arrow-down-right"></span>
+                                    </span>
+                                    <span>
+                                        <span class="iconify bold color3" data-icon="bi:arrow-down-right"></span>
+                                    </span>
+                                </div>
+                            </mat-grid-tile>
+                            <mat-grid-tile class="item">
+                                <div class="flex light">
+                                    <span class="text">Bitcoin</span>
+                                    <span class="text">Ethereum</span>
+                                    <span class="text">Binance</span>
+                                </div>
+                            </mat-grid-tile>
+                            <mat-grid-tile class="item">
+                                <div class="flex light">
+                                    <span class="text">10:42:23 AM</span>
+                                    <span class="text">12:00:23 AM</span>
+                                    <span class="text">10:42:23 AM</span>
+                                </div>
+                            </mat-grid-tile>
+                            <mat-grid-tile class="item">
+                                <div class="flex light">
+                                    <span class="text">+1545,00</span>
+                                    <span class="text">+1745,00</span>
+                                    <span class="text">+255,00</span>
+                                </div>
+                            </mat-grid-tile>
+                            <mat-grid-tile class="item">
+                                <div class="flex light">
+                                    <span class="text">Completed</span>
+                                    <span class="text">Completed</span>
+                                    <span class="text">Completed</span>
+                                </div>
+                            </mat-grid-tile>
+                        </mat-grid-list>
+                    </div>
+                </mat-grid-tile>
+                <mat-grid-tile [colspan]="1" [rowspan]="2" rowWidth="500px">
+                    <div class="table">
+                        <p class="three">
+                            <span class="tab">Sell Order</span>
+                            <span class="iconify tb-menu" data-icon="carbon:overflow-menu-vertical"></span>
+                        </p>
+                        <mat-table [dataSource]="dataSource" class="mat-elevation-z8 demo-table">
+                            <!-- Price Column -->
+                            <ng-container class="ng-container" matColumnDef="price">
+                                <th mat-header-cell *matHeaderCellDef>Price</th>
+                                <td mat-cell *matCellDef="let element">{{ element.price }}</td>
+                            </ng-container>
+
+                            <!-- Amount Column -->
+                            <ng-container class="ng-container" matColumnDef="amount">
+                                <th mat-header-cell *matHeaderCellDef>Amount</th>
+                                <td mat-cell *matCellDef="let element">{{ element.amount }}</td>
+                            </ng-container>
+
+                            <!-- Total Column -->
+                            <ng-container class="ng-container3" matColumnDef="total">
+                                <th mat-header-cell *matHeaderCellDef>Total</th>
+                                <td mat-cell *matCellDef="let element">
+                                    ${{ element.total }},00
+                                </td>
+                            </ng-container>
+                            <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+                            <mat-row (click)="clickedRows.add(row)" [class.demo-row-is-clicked]="clickedRows.has(row)"
+                                *matRowDef="let row; columns: displayedColumns"></mat-row>
+                        </mat-table>
+                    </div>
+                </mat-grid-tile>
+            </mat-grid-list>
+        </div>
+        <!-- </mat-drawer-container> -->
+    </mat-drawer-content>
+</mat-drawer-container>
